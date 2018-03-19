@@ -14,8 +14,8 @@ zipkin:
   collector:
     rabbitmq:
       addresses: localhost:15672
-      password: admin
-      username: 123456
+      password: guest
+      username: guest
       queue: zipkin
   storage:
     type: mysql
