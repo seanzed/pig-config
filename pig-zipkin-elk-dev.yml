@@ -4,9 +4,9 @@ server:
 zipkin:
   collector:
     rabbitmq:
-      addresses: localhost:15672
-      password: guest
-      username: guest
+      addresses: 118.126.111.197:5672
+      password: admin
+      username: 123456
       queue: zipkin
   storage:
     type: elasticsearch

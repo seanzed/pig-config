@@ -3,10 +3,10 @@ server:
 
 spring:
   rabbitmq:
-    host: 127.0.0.1
-    port: 15672
-    username: guest
-    password: guest
+    host: 118.126.111.197
+    port: 5672
+    username: admin
+    password: 123456
   zipkin:
     rabbitmq:
       queue: zipkin
