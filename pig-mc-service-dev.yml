@@ -1,0 +1,16 @@
+server:
+  port: 4050
+
+spring:
+  rabbitmq:
+    host: 118.126.111.197
+    port: 15672
+    username: admin
+    password: 123456
+
+sms:
+  aliyun:
+    accessKey: accessKey
+    secretKey: secretKey
+    channels:
+      loginCodeChannel: SMS_34630023
